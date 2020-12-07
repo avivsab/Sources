@@ -1,0 +1,29 @@
+find /Users/{username} -name ".git" -print        # find all git local repositories
+
+ls `npm root -g`                                  # list all npm global packages
+
+npm list -g --depth=0                             # tree of previos command  
+                                                
+npm -g list                                       # tree with all packages depndecies   
+
+nano <file>                                       # terminal text editor
+vi | vim <file>                                   # brave people terminal text editor
+cat <file>                                        # show file contents  
+
+npx express-generator --no-view                   # node - express app boilerplate
+
+curl <remote-file-address> -o <file>              # get remote source to local file (wget-linux)
+
+history                                           # commands run from the terminal
+
+uptime                                            # time local machine boot till now
+
+ps                                                # process with PID
+
+grep 'string' path-to-file                        # find in file
+
+sudo chown -R $(whoami) .                         # set owner permmisions for the current user for all directory files 
+
+stat -f %A <file>                                 # file octal permmisions
+
+df                                                # amount of disk free in fs

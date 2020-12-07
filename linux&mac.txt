@@ -1,0 +1,29 @@
+pwd         # print working directory
+ls          # list files in directory
+cd          # change directory
+~           # home directory
+..          # up one directory
+-           # previous working directory
+man         # manual
+cat         # output the contents of a file
+mkdir       # create new directory
+open        # open a file with the associated program, a directory with Finder, or a URL with the default web browser
+ps          # list all running processes
+kill        # terminate existing process
+rmdir       # remove directory
+touch       # create file
+rm          # remove file
+rm -f       # force remove file
+rm -rf      # remove directory and contents
+alias       # name commands localy
+mv          # move file
+cp          # compy file
+uname       # local unix info 
+chmod       # change file permissions
+chown       # change file owners
+users       # logged in users
+w           # logged in users with their process details
+whoami      # current logged user
+whereis     # system binary files
+passwd      # change local password
+sudo        # super user do
